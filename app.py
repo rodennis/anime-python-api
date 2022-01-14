@@ -14,7 +14,7 @@ class BaseModel(Model):
         database = db
 
 class Facts(BaseModel):
-    fact_id = CharField()
+    show_name = CharField()
     fact = CharField()
 
 db.connect()
